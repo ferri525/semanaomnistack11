@@ -1,26 +1,30 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+
+import './global.css';
+
+import Routes from './routes';
+
 
 function App() {
+ 
+  
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Hello Omnistack
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+   <Routes/>
+     
   );
 }
 
 export default App;
+
+
+
+
+
+
+/**
+ * 
+ * JSX = JavaScript XML.
+ * Componente: Funcao que retorna HTML, ela pode ter funcao CSS, JavaScript, etc.
+ * Propriedades: Atributos passados para componentes e não elementos como no HTML.
+ * Estado: Informacao mantida pelo componente. Ex: Input do Usuario.
+ */
